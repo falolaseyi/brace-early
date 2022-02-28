@@ -1,6 +1,132 @@
-/*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
-*/
+/* @font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-BlackItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-BlackItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-Black.woff2') format('woff2'),
+        url('/fonts/BROmny-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-Bold.woff2') format('woff2'),
+        url('/fonts/BROmny-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-Light.woff2') format('woff2'),
+        url('/fonts/BROmny-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-BoldItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-LightItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-Regular.woff2') format('woff2'),
+        url('/fonts/BROmny-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-MediumItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-Medium.woff2') format('woff2'),
+        url('/fonts/BROmny-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-RegularItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-SemiBold.woff2') format('woff2'),
+        url('/fonts/BROmny-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-Thin.woff2') format('woff2'),
+        url('/fonts/BROmny-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'omny';
+    src: url('/fonts/BROmny-ThinItalic.woff2') format('woff2'),
+        url('/fonts/BROmny-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+} */
+
+@import url('/fonts/stylesheet.css');
+
+/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -423,7 +549,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -468,78 +594,172 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
   }
 }
 
-.mx-2 {
+.mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.mt-6 {
+.mt-6{
   margin-top: 1.5rem;
 }
 
-.mr-12 {
+.mr-12{
   margin-right: 3rem;
 }
 
-.flex {
+.mt-48{
+  margin-top: 12rem;
+}
+
+.mb-40{
+  margin-bottom: 10rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mr-20{
+  margin-right: 5rem;
+}
+
+.flex{
   display: flex;
 }
 
-.basis-1\/2 {
-  flex-basis: 50%;
+.grid{
+  display: grid;
 }
 
-.flex-row {
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-cols-5{
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-row{
   flex-direction: row;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.bg-neutral-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
+}
+
+.pr-8{
+  padding-right: 2rem;
+}
+
+.pr-20{
+  padding-right: 5rem;
+}
+
+.pr-7{
+  padding-right: 1.75rem;
+}
+
+.font-custom{
+  font-family: omny, sans-serif;
+}
+
+.text-xl{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-lg{
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 section {
@@ -553,7 +773,7 @@ section {
 
 .main-btn {
   background: #062638;
-  padding: 16px 24px;
+  padding: 16px 32px;
   color: #ffffff;
   border-radius: 12px;
 }
