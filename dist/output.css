@@ -468,20 +468,92 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.font-grotesk {
-  font-family: Space Grotesk, sans-serif;
+.container {
+  width: 100%;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
 
-.font-bold {
-  font-weight: 700;
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+section {
+  margin: 0;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.main-btn {
+  background: #062638;
+  padding: 16px 24px;
+  color: #ffffff;
+  border-radius: 12px;
 }
