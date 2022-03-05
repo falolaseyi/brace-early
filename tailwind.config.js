@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -39,7 +41,7 @@ module.exports = {
         'white': '#ffffff',
         'black': '#000000',
       },
-      
+
       fontFamily: {
         'custom': ['omny', 'sans-serif']
       },
@@ -47,8 +49,27 @@ module.exports = {
       fontSize: {
         sm: ['14px', '20px'],
         base: ['16px', '24px'],
-        lg: ['20px', '28px'],
-        xl: ['24px', '32px'],
+        lg: ['18px', '28px'],
+        'xl': ['20px', {
+          letterSpacing: '-2%',
+          lineHeight: '28px',
+        }],
+        '2xl': ['32px', {
+          letterSpacing: '-2%',
+          lineHeight: '40px',
+        }],
+        '3xl': ['36px', {
+          letterSpacing: '-2%',
+          lineHeight: '44px',
+        }],
+        '4xl': ['44px', {
+          letterSpacing: '-2%',
+          lineHeight: '48px',
+        }],
+        '5xl': ['52px', {
+          letterSpacing: '-2%',
+          lineHeight: '56px',
+        }],
       }
 
     },
